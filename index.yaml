@@ -1,14 +1,14 @@
 apiVersion: v1
 entries:
-  testchart:
+  grafana:
   - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2020-08-31T11:58:48.540758+03:00"
-    description: A Helm chart for Kubernetes
-    digest: c7422560662667659a13100211fc8c5d9ca0301006ed67b342f56a32b1f20f55
-    name: testchart
+    appVersion: 7.1.5
+    created: "2020-08-31T15:16:59.931132+03:00"
+    description: A Helm chart for Grafana
+    digest: 49df8e8d4c33ab6490e92363631f4486c169029de50efd501b1b69c0102af0bc
+    name: grafana
     type: application
     urls:
-    - charts/testchart-0.1.0.tgz
+    - charts/grafana-0.1.0.tgz
     version: 0.1.0
-generated: "2020-08-31T11:58:48.537368+03:00"
+generated: "2020-08-31T15:16:59.930228+03:00"
