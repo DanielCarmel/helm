@@ -64,6 +64,11 @@ grafana:
       conf: /etc/grafana/ldap.toml
   logging:
     level: Info # Either "Trace", "Debug", "Info", "Warn", "Error", "Critical", default is "Trace"
+    format: json
+  alerting:
+    enabled: false
+  explore:
+    enabled: true
   event_publisher:
     base_dashboards_folder: /var/lib/grafana/base_dashboards
   database:
